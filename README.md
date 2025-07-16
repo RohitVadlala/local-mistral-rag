@@ -1,9 +1,10 @@
-# 🧠 Local Mistral RAG
+# 🧠 Local RAG with Mistral & Azure Integration
 
-This project demonstrates a simple **Retrieval-Augmented Generation (RAG)** pipeline that runs entirely locally using the **Mistral model via Ollama**.
+This project showcases a lightweight **Retrieval-Augmented Generation (RAG)** pipeline that runs entirely on your local machine using the **Mistral model via Ollama**, with optional support for Azure Blob Storage and Form Recognizer.
 
-It extracts content from a PDF, breaks it into chunks, builds a FAISS index for semantic search, and uses Mistral to answer questions based on relevant content. No external APIs — everything runs on your machine.
+It extracts text from PDFs (either uploaded or pulled from Azure), breaks the content into chunks, embeds them with FAISS for fast semantic search, and uses the local Mistral model to answer user queries based on relevant context.
 
+No cloud inference. No external LLM APIs. Just private, offline GenAI Q&A.
 ---
 
 ## 🔧 What’s Inside
