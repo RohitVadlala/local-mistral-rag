@@ -1,0 +1,8 @@
+streamlit
+faiss-cpu
+sentence-transformers
+requests
+numpy
+azure-ai-formrecognizer
+azure-core
+azure-storage-blob
