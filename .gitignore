@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.bin
+*.txt
+tesla_10k_2024.pdf
+extracted_text.txt
+faiss_index.bin
+.env
